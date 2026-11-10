@@ -1,0 +1,10 @@
+{
+ "name":"MILLIONER AI MENTOR",
+ "short_name":"AI MENTOR",
+ "description":"Пошаговый наставник от идеи до запуска цифрового продукта",
+ "start_url":"./",
+ "display":"standalone",
+ "background_color":"#0d0c18",
+ "theme_color":"#111022",
+ "icons":[]
+}

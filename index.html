@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111022">
+<meta name="description" content="Пошаговый AI-наставник: от идеи до запуска первого цифрового продукта.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+<title>MILLIONER AI MENTOR</title>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="mark">M</span><div><b>MILLIONER</b><small>AI MENTOR</small></div></div>
+  <div class="status"><span class="dot"></span> ТВОЙ МАРШРУТ</div>
+</header>
+<main>
+  <section class="hero">
+    <div class="eyebrow">ОДИН МАРШРУТ · ОДНО ДЕЙСТВИЕ ЗА РАЗ</div>
+    <h1>От нуля<br><em>до запуска.</em></h1>
+    <p>Я выбираю следующий шаг. Ты выполняешь только его. Следующий этап откроется после подтверждения.</p>
+    <div class="progress-wrap">
+      <div class="progress-meta"><span>ТВОЙ ПРОГРЕСС</span><b id="progressText">0 из 8</b></div>
+      <div class="track"><div id="progressBar"></div></div>
+    </div>
+  </section>
+
+  <section class="mentor-card">
+    <div class="mentor-head"><span class="avatar">AI</span><div><b>Твой наставник</b><small>Веду тебя по одному шагу</small></div><span class="live">НА СВЯЗИ</span></div>
+    <div id="mentorMessage" class="mentor-message">Начинаем с подготовки бесплатной рабочей среды. Не переходи к другим задачам — сейчас только один шаг.</div>
+  </section>
+
+  <section class="step-card">
+    <div class="step-kicker"><span id="stepNumber">ШАГ 01 / 08</span><span class="locked-label" id="lockLabel">ТЕКУЩАЯ ЗАДАЧА</span></div>
+    <h2 id="stepTitle">Открой Replit</h2>
+    <p id="stepDescription">Открой сайт Replit в браузере. Пока ничего не покупай и не создавай.</p>
+    <div class="instruction" id="stepInstruction">Нажми кнопку ниже, открой сайт и зарегистрируйся бесплатным способом, если он доступен.</div>
+    <a class="primary" id="actionLink" href="https://replit.com/" target="_blank" rel="noopener">Открыть Replit <span>↗</span></a>
+    <div class="confirm-area">
+      <label class="confirm"><input type="checkbox" id="doneCheck"><span>Я выполнил этот шаг</span></label>
+      <button id="nextButton" disabled>Подтвердить и продолжить →</button>
+      <small id="confirmHint">Отметь выполнение, чтобы открыть следующий шаг.</small>
+    </div>
+  </section>
+
+  <section class="route">
+    <div class="route-title"><h3>Маршрут запуска</h3><span>8 этапов</span></div>
+    <div id="routeList"></div>
+  </section>
+  <section class="note"><b>Важно</b><p>Наставник помогает удерживать последовательность, но браузер не может полностью запретить тебе открывать другие вкладки. Прогресс сохраняется на этом устройстве. Для публикации, платежей и ИИ-сервисов могут потребоваться аккаунты, проверка и платные тарифы.</p></section>
+</main>
+<footer>СОЗДАНО ДЛЯ ПОШАГОВОГО ЗАПУСКА · MILLIONER</footer>
+<script src="app.js"></script>
+</body>
+</html>
